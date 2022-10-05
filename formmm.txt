@@ -1,0 +1,99 @@
+<html>
+<head>
+<title>Registration_Form</title>
+</head>
+<body>
+<center>
+<table align="center" bgcolor="blue">
+<form>
+<center>
+<h1>Registration_Form</h1>
+</center>
+<tr colspan='3'><input type="radio">Mr <input type="radio"> Mrs <input type="radio"> Ms</tr>
+<tr>
+<td><label>Student ID:</label></td>
+<td><input type="text" name="Name" placeholder="enter your id"</td>
+</tr>
+
+<tr>
+ <td><label>First Name:</label></td>
+ <td><input type="text" name="Name" placeholder="enter your first name"</td>
+</tr>
+
+<tr>
+ <td><label>Last Name:</label></td> 
+ <td><input type="text" name="Name" placeholder="enter your last name"</td>
+</tr>
+
+<tr>
+ <td><label>Username:</label></td> 
+ <td><input type="text" name="Name" placeholder="enter your username"</td>
+</tr>
+
+<tr>
+ <td><label>Password:</label></td> 
+ <td><input type="password" name="password" placeholder="enter your password"</td>
+</tr>
+
+<tr>
+ <td><label>Address:</label></td>
+ <td><textarea>  </textarea></td>
+</tr>
+
+<tr>
+ <td><label>City:</label></td>
+ <td><input type="text" name="city" placeholder="enter your city"</td>
+</tr>
+
+<tr>
+ <td><label>State:</label></td>
+ <td><select><option value="Telangana">Telangana 
+             <option value="A.P">A.P
+             <option value="Maharashtra">Maharashtra
+     </select>
+ </td>
+ <td><label>Pin:</label></td> 
+ <td><input type="text" name="pin" placeholder="enter your pin"</td>
+</tr>
+
+<tr>
+ <td><label>Upload Photo:</label></td> 
+ <td><input type="file" name="upload photo" placeholder="browse"></td>
+</tr>
+
+<tr>
+ <td><label>Email:</label></td>
+ <td><input type="text" name="email" placeholder="enter your email"></td>
+</tr>
+
+<tr>
+ <td><label>Mobile:</td> <td><input type="tel" name="mobile" placeholder="+91"></td>
+</tr>
+
+<tr>
+ <td><label>Language:</label></td>
+ <td><input type="checkbox">English 
+     <input type="checkbox">Telugu
+     <input type="checkbox">Hindi
+ </td>
+</tr>
+
+<tr>
+ <td><label>Additional Info:</label></td>
+ <td><textarea>  </textarea></td>
+</tr>
+
+<tr>
+ <td colspan='3' align="center"><input type="checkbox">Accept terms & conditions</td>
+</tr>
+
+<tr>
+ <td colspan='2' align="center"><input type="submit" name="SUBMIT"></td>
+ <td><input type="reset" name="RESET"></td>
+</tr>
+
+</form>
+</table>
+</center>
+</body>
+</html>
